@@ -12,7 +12,7 @@ import ResetBall from "./util/ResetBall";
 
 let bricks = [];
 let { ballObj, paddleProps, brickObj, player } = data;
-let br = 4;
+let br = 20;
 
 function Board() {
   const canvasRef = useRef(null);
