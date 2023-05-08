@@ -5,12 +5,12 @@ export default function Brick(level, bricks, canvas, brick) {
     return [];
   }
   // If all the levels are filled
-  if (bricks.length >= 2 * level) {
+  if (bricks.length >= 5 * level) {
     return;
   }
 
   // Brick Formation here
-  for (let i = 0; i < 2 * level; i++) {
+  for (let i = 0; i < 10 * level; i++) {
     let newBrick = new SingleBrick(
       brick.x + brick.width,
       brick.y,
